@@ -1,0 +1,54 @@
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.user-card {
+    width: 900px;
+    background-color: white;
+    border: 3px solid gray;
+    margin: 0 auto; /*generando margen auto y centrado*/
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.card-header {
+    height: 130px;
+    background-color: rgb(58,153,153);
+    margin-bottom: 70px;
+}
+
+.avatar {
+    height: 140px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    border: 2px solid gray;
+    border-radius: 50%;
+}
+
+.card-body {
+    padding: 0px 20px 20px 45px;
+}
+
+.icon {
+    height: 20px;
+}
+
+h1, h3, p {
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+}
+
+.btn-amarillo {
+    background-color: yellow;
+}
+
+.btn-verde  {
+    background-color: green;
+}

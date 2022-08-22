@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta de Usuario</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="user-card">
+        <div class="card-header">
+            <img src="icons/user-circle.png" alt="imagen avatar" class="avatar"/>
+        </div>
+
+        <div class="card-body">
+            <h1 onclick="cambiar_titulo(this)">Viviana Medina</h1>
+            <h3 class="claseh3">
+                <img src="icons/map-marker.png" alt="pin" class="icon"/>
+                Colombia
+            </h3>
+            <p>
+                Microbióloga y Bioanalista, Desarrolladora, Emprendedora
+            </p>
+            <p>
+                <a href="#">
+                    <img onclick="cambia_img(this)" src="icons/gear.png" alt="engrane" class="icon"/>
+                    editar perfil
+
+                </a>
+            </p>
+
+            <div id="p1">Persona 1</div>
+            <div id="p1">Persona 2</div>
+
+            <span id="numero">0</span>
+            <button ondblclick="cambiar_h1()"> Cambiar texto h1</button>
+            <button onclick="cambiar_h3()"> Cambiar texto h3</button>
+            <button onclick="incrementa()"> Incrementa número</button>
+            <button onmouseover="over(this)" onmouseout="out(this)">Probando mouse over</button>
+            <button onmouseover="over(this)" onmouseout="out(this)">Otro boton</button>
+            <button id="btn" class="btn-amarillo" onclick="cambiar_clase()">Cambiar clase</button>
+            <button onclick="cambiar_imgh3()">Cambiar imagen dentro de h3</button>
+
+            <button onclick="eliminar('#p1')">Eliminar elemento 1</button>
+            <button onclick="eliminar('#p2')"   >Eliminar elemento 1</button>
+
+        </div>
+
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
